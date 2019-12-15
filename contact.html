@@ -1,13 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <h1>Bikash Bhaila</h1>
+   
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <title>About Me</title>
 </head>
+
 <body>
-    <h2>Contact</h2>
+    <div class="header">
+        <div class="inside_header">
+            <div class="your_name">
+                <h1>Bikash Bhaila</h1>  
+            </div>   
+        
+
+            <ul class="topnav">
+                <a href="index.html"><li>About</li></a>
+                <a href="portfolio.html"><li>Portfolio</li></a>
+                <a href="contact.html" class="active"><li>Contact</li></a>
+            </ul>
+        </div>    
+    </div>
+
+    <div class="container">
+        <div id="contact_head">
+            <h1>Contact</h1>
+        </div>
+        <br>
+        <form action="action_page.php">
+      
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="Name" placeholder="Type your name here">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="lastname" placeholder="youemail@blahblah.com">
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" style="height:200px" placeholder="Enter your message here"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+    </div>
+    <div class="footer">
+
+        <div class="inside_footer">
+            <div class="copyright">
+                <p>Copyright ©</p>
+            </div>
+        </div>
+    
+    
+    </div>
+    
+    
 </body>
+    
 </html>
